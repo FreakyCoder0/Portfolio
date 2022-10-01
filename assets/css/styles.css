@@ -521,20 +521,21 @@ body.light-theme{
 
 /*=============== SERVICES ===============*/
 .services__container{
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1.5rem;
   padding-top: 1rem;
 }
 
 .services__card{
+  text-align: center;
   background-color: var(--container-color);
-  padding: 3rem 1.5rem 1.5rem;
+  padding: 1.5rem 1.5rem 1.5rem;
   border-radius: 1rem;
 }
 
 .services__title{
   font-size: var(--h3-font-size);
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .services__button{
@@ -557,6 +558,7 @@ body.light-theme{
 
 /* Services modal */
 .services__modal{
+  text-align: left;
   position: fixed;
   inset: 0;
   background-color: hsla(var(--second-hue), 28%, 16%, .7);
@@ -572,7 +574,7 @@ body.light-theme{
 .services__modal-content{
   position: relative;
   background-color: var(--body-color);
-  padding: 4.5rem 1.5rem 2.5rem;
+  padding: 2.5rem 1.5rem 2.5rem;
   border-radius: 1.5rem;
 }
 
@@ -957,13 +959,13 @@ body.light-theme{
   }
 
   .services__container{
-    grid-template-columns: repeat(2, 160px);
+    grid-template-columns: repeat(1, 500px);
     justify-content: center;
   }
 
   .services__modal-content{
     width: 500px;
-    padding: 4.5rem 2.5rem 2.5rem;
+    padding: 2.5rem 2.5rem 2.5rem;
   }
   .services__modal-description{
     padding: 0 3.5rem;
@@ -1087,11 +1089,12 @@ body.light-theme{
     column-gap: 3rem;
   }
   .services__container{
-    grid-template-columns: repeat(3, 192px);
+    grid-template-columns: repeat(1, 450px);
     column-gap: 3rem;
   }
   .services__card{
-    padding: 5rem 2rem 1.5rem;
+    text-align: left;
+    padding: 1.5rem 1.5rem 1.5rem;
   }
   .work__container{
     grid-template-columns: repeat(3, 350px);
